@@ -16,6 +16,7 @@ function displayNews() {
   console.log(newDiv);
   newNewsList.innerHTML = newDiv;
 }
+console.log('lol')
 
 function addNews() {
   let newNewsTitle = document.getElementById("news_title").value;
